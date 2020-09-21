@@ -71,7 +71,7 @@ window.renderStatistics = function (ctx, players, times) {
       CLOUD_Y,
       `#fff`
   );
-
+  ctx.font = `16px PT Mono`;
   ctx.fillStyle = `#000`;
 
   const introHeight = renderIntro(ctx, INTRO_TEXT);
