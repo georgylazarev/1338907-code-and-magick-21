@@ -84,10 +84,6 @@ const setupClose = document.querySelector(`.setup-close`);
 const setup = document.querySelector(`.setup`);
 // Находим поле ввода имени
 const wizardNameField = document.querySelector(`.setup-user-name`);
-// Находим форму
-const wizardForm = document.querySelector(`.setup-wizard-form`);
-// Находим кнопку Сохранить
-const saveButton = document.querySelector(`.setup-submit`);
 
 // Объявялем функцию закрытия окна по нажатию эскейп
 const onPopupEscPress = function (evt) {
